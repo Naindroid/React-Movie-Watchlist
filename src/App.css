@@ -1,0 +1,90 @@
+body {
+  background-image: url('https://wallpaperaccess.com/full/2000044.png');
+  /* background-color: #c5a61a; */
+}
+
+/* .movie-app > .col {
+  overflow-y: auto;
+  flex-wrap: nowrap;
+} */
+
+/* .movie-app {
+  max-width: 100px;
+} */
+
+.image-container {
+  /* max-width: 450px; */
+  position: relative;
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(241, 233, 233, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  max-width: 350px;
+}
+
+.td1 {
+  width: 420px;
+  height: 900px;
+}
+
+.details {
+  width: 800px;
+  height: 900px;
+}
+
+.ptitle {
+  text-align: center;
+  font-weight: bold;
+}
+
+td {
+  width: 350px;
+  /* text-align: center; */
+  border: 2px solid black;
+  /* padding: 5px; */
+}
+
+.col {
+  text-align: center;
+}
+
+.maintable {
+  position: absolute;
+  left: 6%;
+}
+
+.detailtable {
+  position: absolute;
+  text-align: left;
+}
+
+.detailhead {
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+}
+
+.content {
+  text-align: justify;
+  font-size: 20px;
+  width: 550px;
+}
